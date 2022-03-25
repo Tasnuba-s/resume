@@ -204,10 +204,10 @@
         <header class="section-header">
           <h2>References</h2>
         </header>
-        {% for skill in site.data.links %}
+        {% for skill in site.data.link %}
         <div class="resume-item">
-          <h4 class="resume-item-details">Zuhayr Zaman</h4>
-          <p class="resume-item-copy">zuahyr.zaman@gmail.com &bull; Customer Services Manager &bull; 880-17-60067049</p>
+          <h4 class="resume-item-details">{{ link.name }}</h4>
+          <p class="resume-item-copy">{{ link.description }}</p>
         </div>
         {% endfor %}
 
