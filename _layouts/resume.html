@@ -204,14 +204,12 @@
         <header class="section-header">
           <h2>References</h2>
         </header>
-
+        {% for skill in site.data.links %}
         <div class="resume-item">
-          <ul class="resume-item-details">
-            {% for link in site.data.links %}
-            <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
-            {% endfor %}
-          </ul>
+          <h4 class="resume-item-details">{{ links.skill }}</h4>
+          <p class="resume-item-copy">{{ links.description }}</p>
         </div>
+        {% endfor %}
 
       </section>
       <!-- end References -->
@@ -234,7 +232,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">#</p>
+        <p class="footer-line"></p>
       </footer>
 
     </div>
