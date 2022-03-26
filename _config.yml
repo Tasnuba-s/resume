@@ -1,6 +1,6 @@
 # Site settings
 title: "Tasnuba Sharmin"
-description: "Tasnuba Sharmin Resume."
+description: "Tasnuba Sharmin Resume"
 
 # Build settings
 markdown: kramdown
@@ -20,7 +20,7 @@ resume_contact_email:           "tasnuba.sharmin@gmail.com"
 resume_contact_telephone:       "+880-17-30791889"
 resume_contact_address:         "Dhaka, Bangladesh"
 
-resume_header_contact_info:     "+880-17-30791889 • tasnuba.sharmin@gmail.com • Dhaka, Bangladesh"
+resume_header_contact_info:     "Dhaka, Bangladesh • +880-17-30791889 • tasnuba.sharmin@gmail.com"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>I have over thirteen years of job experience, both in home and in the United Kingdom. My key activities are to provide outstanding customer services by leading and motivating team members, meet agreed sales targets and KPI lines, quality assurance and complaint management. I have expertise in recruiting staff, and training and developing sales team. I possess astute business knowledge and actively contribute to business through improvements of working processes, productivity and cost. I am a passionate trainer and deliver training across the British Council South Asia region. I am proficient in computerized bookkeeping with over three years of job experience.</p>"
